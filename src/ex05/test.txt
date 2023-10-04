@@ -1,0 +1,158 @@
+-----------Пример из задания-----------------
+John
+Mike
+.
+2 MO
+4 WE
+.
+Mike 2 28 NOT_HERE
+John 4 9 HERE
+Mike 4 9 HERE
+.
+------------Тест на количество студентов-----------------------
+John
+Mike
+Sam
+Luy
+Din
+Alex
+Karl
+Philip
+Teador
+Dan
+Oliver
+.
+-------------------Тест на длину имени-----------------------
+qwertyuiopa
+-------------------Тест на неверное время занятия------------
+John
+.
+6 MO
+-------------------Тест на неправильный день недели----------
+John
+.
+1 Monday
+.
+-------------------Тест на количество занятий, превышающее 10 занятий в неделю----------
+John
+.
+1 MO
+2 MO
+1 TU
+2 TU
+1 WE
+2 WE
+1 TH
+1 FR
+1 SA
+1 SU
+2 SU
+-------------------Тест на несколько занятий в день----------
+John
+.
+1 MO
+2 MO
+3 MO
+4 MO
+5 MO
+.
+John 1 28 HERE
+John 2 28 HERE
+John 3 28 HERE
+John 4 28 HERE
+John 5 28 HERE
+.
+-------------------Тест на порядок в часах внутри дня----------
+John
+.
+2 MO
+5 MO
+1 MO
+3 MO
+4 MO
+.
+John 1 28 HERE
+John 2 28 NOT_HERE
+.
+-------------------Тест на количество занятий в день (не больше 5)----------
+John
+.
+2 MO
+5 MO
+1 MO
+3 MO
+4 MO
+4 MO
+.
+John 1 28 HERE
+John 2 28 HERE
+John 3 28 HERE
+John 4 28 HERE
+John 5 28 HERE
+.
+-------------------Тест на полный состав----------
+John
+Mike
+Sam
+Luy
+Din
+Alex
+Karl
+Philip
+Teador
+Dan
+.
+2 MO
+5 MO
+1 FR
+2 FR
+3 FR
+5 WE
+3 WE
+1 WE
+2 SA
+4 TU
+.
+John 2 7 HERE
+John 5 7 NOT_HERE
+Mike 5 7 NOT_HERE
+Sam 1 11 NOT_HERE
+Luy 2 11 HERE
+Din 3 11 HERE
+Alex 5 9 HERE
+Karl 3 9 HERE
+Philip 1 1 NOT_HERE
+.
+-------------------Тест на запись занятий в разнобой----------
+John
+Mike
+Sam
+Luy
+Din
+Alex
+Karl
+Philip
+Teador
+Dan
+.
+2 MO
+1 FR
+5 MO
+2 FR
+3 WE
+3 FR
+5 WE
+2 SA
+1 WE
+4 TU
+.
+John 2 7 HERE
+John 5 7 NOT_HERE
+Mike 5 7 NOT_HERE
+Sam 1 11 NOT_HERE
+Luy 2 11 HERE
+Din 3 11 HERE
+Alex 5 9 HERE
+Karl 3 9 HERE
+Philip 1 1 NOT_HERE
+.
